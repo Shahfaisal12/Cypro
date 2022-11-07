@@ -202,8 +202,8 @@ main{
 }
 
 .css-m2mx0n-MuiDrawer-docked .MuiDrawer-paper{
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
 }
 /////////////////////////////// HOME HERO SECTION /////////////////////////////////
 
@@ -289,7 +289,7 @@ main{
 
   /////////////////// Detail Page/////////////////////
   
-  .detail-page {
+.detail-page {
 .btn-custom{
 border: 1px solid #1199fa;
 border-radius: 4px;
@@ -347,9 +347,3 @@ color: #1199fa;
   }
 }
 
-// @media only screen and (max-width: 768px) {
-// }
-
-.css-1l8j5k8{ 
-  position: unset !important;
-}
