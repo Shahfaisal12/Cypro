@@ -201,6 +201,9 @@ main{
   position: relative;
 }
 
+.css-1l8j5k8{ 
+  position: unset !important;
+}
 .css-m2mx0n-MuiDrawer-docked .MuiDrawer-paper{
   overflow-x: hidden !important;
   overflow-y: auto !important;
@@ -289,7 +292,7 @@ main{
 
   /////////////////// Detail Page/////////////////////
   
-.detail-page {
+  .detail-page {
 .btn-custom{
 border: 1px solid #1199fa;
 border-radius: 4px;
