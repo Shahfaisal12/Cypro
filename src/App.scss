@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.bg-color{
+    background-color: rgb(11, 20, 38) !important;
+}
+main{
+  .css-1stluuk{
+    display: none !important;
+  }
+}
+/////////////////////////////////// TOOGLER ICON COLOR CHANGE COLOR //////////////////////////
+
+.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none !important;
+  position: relative;
+  border-bottom: 2px solid #ffffff;
+  transition: all 300ms linear;
+}
+.navbar .navbar-toggler-icon:after,
+.navbar-toggler-icon:before {
+  width: 24px;
+  position: absolute;
+  height: 2px;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 2;
+  transition: all 300ms linear;
+}
+.navbar .navbar-toggler-icon:after {
+  top: 8px;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(45deg) !important;
+}
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  transform: translateY(8px) rotate(-45deg) !important;
+}
+.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  border-color: transparent !important;
+}
+.navbar-toggler {
+  // background-color: rgb(52 196 57) !important;
+  padding: 10px !important;
+}
+
+.offcanvas {
+  backdrop-filter: blur(10px) !important;
+  background-color: #00000080 !important;
+}
+
+/////////////////////////////  HEADER SECTIO ///////////////////@at-root
+
+.navbar {
+  background: #0b1426;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  z-index: 999;
+  // position: fixed;
+  .nav-link {
+    margin-right: 32px;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+  }
+  .btn-create {
+    margin-right: 32px;
+    background: linear-gradient(90deg, #1199fa, #11d0fa);
+    padding: 8px 24px !important;
+    border: none !important;
+    font-weight: 600 !important;
+  }
+  .language a {
+    background: linear-gradient(90deg, #1199fa, #11d0fa) !important;
+    background-clip: text !important;
+    font-weight: 400 !important;
+  }
+  .txt-clr {
+    color: #1199fa !important;
+  }
+  .vertical-border {
+    align-self: center;
+    border-left: 1px solid rgb(98, 105, 115);
+    display: flex;
+    height: 22px;
+    margin-right: 32px;
+  }
+  form {
+    position: relative;
+    width: 400px;
+    input {
+      background: transparent;
+      color: rgb(227, 227, 227);
+      border-radius: 50px;
+      border: 1px solid rgb(148, 155, 164);
+      padding-left: 35px;
+      &:focus {
+        box-shadow: none;
+        border: 2px solid #3498db;
+      }
+    }
+    .fa-icon {
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      height: 18px;
+      width: 18px;
+      color: #ffffff;
+      &:focus {
+        box-shadow: none;
+        border: 2px solid #3498db;
+      }
+    }
+  }
+}
+
+///////////////////////// SIDEBAR SECTION  ////////////////////////////@at-root
+
+.sidebar-section {
+  color: #FFFFFF;
+  height: 100%;
+  width: 326px;
+  position: fixed;
+  background-color: rgb(11, 20, 38);
+  overflow-x: hidden;
+
+.MuiListItemText-primary{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+  .form-check-input{
+    width: 24px;
+    height: 24px;
+  }
+
+
+}
+.footer-icon{
+  color: #11AEFA;
+}
+
+.css-k008qs {
+  display: -webkit-box;
+  display: -webkit-absolute;
+  display: absolute; 
+}
+
+.stky{
+  position: sticky !important;
+  top: calc(80px);
+  bottom: auto !important;
+  z-index: 999 !important;
+  background-color: rgb(11, 20, 38);
+
+}
+
+.MuiButton-outlinedPrimary, .btn-soted{
+  border-radius: 50px !important; 
+     font-weight:bold !important;
+     border: 1px solid #FFFFFF !important;
+     color: #FFFFFF !important;
+}
+.round-start{
+  margin-left: 10px;
+  border-start-start-radius: 50px !important;
+    border-end-start-radius: 50px !important;
+    border: 1px solid #FFFFFF !important;
+     color: #FFFFFF !important;
+     &:hover{
+      background: linear-gradient(90deg, #1199fa, #11d0fa);
+    }
+}
+.round-end{
+  border: 1px solid #FFFFFF !important;
+     color: #FFFFFF !important;
+  border-bottom-right-radius: 50px !important;
+  border-top-right-radius: 50px !important;
+  &:hover{
+    background: linear-gradient(90deg, #1199fa, #11d0fa);
+  }
+}
+.MuiToolbar-gutters {
+  justify-content: space-between;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper, .css-6dylva-MuiPaper-root-MuiAppBar-root, .css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+  top: auto !important;
+  background-color: rgb(11, 20, 38) !important; 
+  box-shadow: none !important;
+  position: absolute !important;
+  z-index: 0 !important;
+  
+}
+.MuiDrawer-root{
+  position: relative;
+}
+
+.css-m2mx0n-MuiDrawer-docked .MuiDrawer-paper{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/////////////////////////////// HOME HERO SECTION /////////////////////////////////
+
+.hero-section{
+  .card{
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+    border: none !important;
+    .card-bid{
+      border-radius: 8px;
+      background:  0% 0% / cover no-repeat rgb(247, 249, 250);
+    }
+    .btn-buy{
+      border-radius: 8px;
+    background:  0% 0% / cover no-repeat rgba(17, 153, 250, 0.1);
+    outline: none;
+    }
+  }
+}
+
+.card-name-icon{
+  color: #798299;
+}
+
+.css-qxpotd{
+  width: 100%;
+}
+
+
+/////////////////////////// CAROUSEL SETION /////////////////////@at-root
+
+  .carousel-section {
+    .card {
+      border: none;
+      aspect-ratio: 256/226;
+      border-radius: 8px;
+      overflow: hidden;
+      width: 100%;
+      &:hover{
+        border: 2px solid #11CFFA;
+      }
+      &:hover img {
+        transform: scale(1.3);
+    }
+      img{
+        transition: 0.5s all ease-in-out;
+      }
+      .card-img-overlay {
+        top: auto;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        overflow: hidden;
+        background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 72.92%) 0%
+          0% / cover no-repeat;
+        .footer-img {
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(255, 255, 255);
+          background-size: cover;
+          display: flex;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          img {
+            width: 31px;
+            height: 31px;
+            border-radius: 50%;
+           
+          }
+        }
+        .footer-text {
+          margin: 0px 12px;
+        }
+      }
+    }
+    .react-multi-carousel-item{
+      margin: 0px 8px;
+    }
+  }
+
+
+
+  /////////////////// Detail Page/////////////////////
+  
+  .detail-page {
+.btn-custom{
+border: 1px solid #1199fa;
+border-radius: 4px;
+color: #1199fa;
+}
+  }
+
+//////////////////// CUSTOM SCROLL CSS  //////////////////////
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: 0 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #a9a9a9;
+  border-radius: 12px;
+}
+
+///////////////////// Footer SECTION ///////////////////@at-root
+
+.footer-nav{
+  ul{
+    li{
+      list-style: none;
+      margin-left: 20px;
+      a{
+        text-decoration: none;
+        color: white;
+
+      }
+    }
+  }
+}
+
+////////////////////  MEDIA QUERY  //////////////////////////
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 300px !important;
+  }
+  .css-m2mx0n-MuiDrawer-docked {
+    width: 300px !important;
+  }
+  .stky{
+    top: calc(100px);
+  
+  }
+}
+
+// @media only screen and (max-width: 768px) {
+// }
+
