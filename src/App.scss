@@ -126,24 +126,17 @@ main{
 
 .sidebar-section {
   color: #FFFFFF;
-  // height: 100%;
-  // width: 326px;
-  // position: fixed;
-  background-color: rgb(11, 20, 38);
-  // overflow-x: hidden;
 
 .MuiListItemText-primary{
   font-weight: 600;
   font-size: 18px;
 }
-
   .form-check-input{
     width: 24px;
     height: 24px;
   }
-
-
 }
+
 .footer-icon{
   color: #11AEFA;
 }
@@ -160,7 +153,6 @@ main{
   bottom: auto !important;
   z-index: 999 !important;
   background-color: rgb(11, 20, 38);
-
 }
 
 .MuiButton-outlinedPrimary, .btn-soted{
@@ -197,10 +189,8 @@ main{
   box-shadow: none !important;
   position: absolute !important;
   z-index: 0 !important;
-  
 }
 .MuiDrawer-root{
-  // position: relative;
   height: 100vh !important;
 }
 
@@ -208,10 +198,6 @@ main{
   background-color: rgb(11, 20, 38) !important; 
   position: unset !important;
 }
-// .css-m2mx0n-MuiDrawer-docked .MuiDrawer-paper{
-//   overflow-x: hidden !important;
-//   overflow-y: auto !important;
-// }
 /////////////////////////////// HOME HERO SECTION /////////////////////////////////
 
 .hero-section{
@@ -235,11 +221,9 @@ main{
 .card-name-icon{
   color: #798299;
 }
-
 .css-qxpotd{
   width: 100%;
 }
-
 
 /////////////////////////// CAROUSEL SETION /////////////////////@at-root
 
@@ -279,7 +263,6 @@ main{
             width: 31px;
             height: 31px;
             border-radius: 50%;
-           
           }
         }
         .footer-text {
@@ -291,8 +274,6 @@ main{
       margin: 0px 8px;
     }
   }
-
-
 
   /////////////////// Detail Page/////////////////////
   
@@ -351,6 +332,9 @@ color: #1199fa;
   .stky{
     top: calc(100px);
   
+  }
+  .css-qxpotd{
+    margin-left: -300px !important;
   }
 }
 
