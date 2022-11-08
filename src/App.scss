@@ -5,6 +5,8 @@
     background-color: rgb(11, 20, 38) !important;
 }
 main{
+  height: 100vh;
+  overflow: auto;
   .css-1stluuk{
     display: none !important;
   }
@@ -124,8 +126,8 @@ main{
 
 .sidebar-section {
   color: #FFFFFF;
-  height: 100%;
-  width: 326px;
+  // height: 100%;
+  // width: 326px;
   position: fixed;
   background-color: rgb(11, 20, 38);
   overflow-x: hidden;
